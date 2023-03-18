@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Tesla Clone
 
-## Getting Started
+Next.js, React.js, TypeScript, TailwindCSS, NextAuth, Redux
 
-First, run the development server:
+The Tesla application is a fully-featured web application that allows users to experience the latest and greatest of Tesla's cutting-edge vehicles. Built with Next.js, React.js, TailwindCSS, NextAuth, Redux, and TypeScript, this application provides a seamless and user-friendly experience for Tesla enthusiasts and car shoppers alike.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The Next.js framework provides server-side rendering capabilities, optimizing the application's performance by reducing the time it takes for pages to load. React.js is used to build the application's UI, providing a modular and reusable component-based approach to building UI elements. TailwindCSS is utilized to provide a simple and efficient way of styling the application, providing a comprehensive set of utility classes that can be easily customized.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+NextAuth provides secure authentication and authorization capabilities for the application, allowing users to easily create and manage their accounts. Redux provides a centralized state management solution, allowing for efficient state updates across the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Finally, TypeScript is utilized to provide strong typing capabilities and ensure a clean and maintainable codebase. With all these technologies working in tandem, the Tesla application provides a modern and cutting-edge experience for Tesla fans and car shoppers alike.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Live Project : https://tesla-clone-ilywdd3c8-beniaminav.vercel.app/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Tesla-1](https://user-images.githubusercontent.com/57075208/226106092-970edd28-7ae8-4822-9d44-3c207d20faad.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![tesla-2](https://user-images.githubusercontent.com/57075208/226106102-1848a314-6c5c-4cf1-b120-10b56f534438.png)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![tesla-3](https://user-images.githubusercontent.com/57075208/226106114-bc986aa3-d1a6-4b26-acca-d88f9f7a02b0.png)
