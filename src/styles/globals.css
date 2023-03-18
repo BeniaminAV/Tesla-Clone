@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+@layer components{
+    .nav-link{
+        @apply cursor-pointer  text-sm font-semibold rounded-lg hover:bg-black/10 transition ease-in duration-150 px-3 py-1
+    }
+
+    .nav-link-shopBar{
+        @apply cursor-pointer text-sm font-semibold rounded-lg hover:bg-black/10 transition ease-in duration-150 px-3 py-1
+    }
+
+    .nav-link-shop{
+        @apply cursor-pointer text-lg sm:text-2xl font-semibold rounded-lg text-gray-700 hover:bg-black/10 transition ease-in duration-150 px-3 py-1
+    }
+
+    /* BTN WHITE/BLACK NAVBAR */
+    .btn-white{
+        @apply mx-2 w-[264px] h-[40px] bg-transparent border-2 border-white rounded-md text-white hover:bg-white hover:text-gray-700 ease-in duration-150 font-bold cursor-pointer flex items-center  justify-center 
+    }
+
+    .btn-black{
+        @apply mx-2 w-[264px] h-[40px] bg-black/60 hover:bg-white/20 ease-in duration-150 rounded-md text-white font-bold cursor-pointer mb-2 md:mb-0 md:mx-2 flex items-center justify-center
+    }
+
+    .detail-show{
+        @apply md:mx-10 mx-2 text-center
+    }
+
+    /* Carousel Shop */
+    .carousel-shop{
+        @apply  bg-cover bg-no-repeat h-[100vh]
+    }
+
+    /* Slider Shop */
+    .slider-photo:focus{
+        @apply outline-none
+    }
+    :focus {
+        outline: none;
+      }
+
+    .slider-photo{
+        @apply h-[60vh] bg-cover bg-no-repeat outline-none cursor-pointer p-2
+    }
+
+    .slider-text{
+        @apply text-lg p-2 text-black
+    }
+
+    /*Model */
+
+    .slider-photo-model{
+        @apply w-[100%] h-[85vh] bg-cover bg-no-repeat bg-center cursor-pointer
+     
+    }
+
+    .model-title{
+        @apply text-xl font-semibold text-gray-700
+    }
+
+    .model-desc{
+        @apply text-xs text-gray-700
+    }
+
+    .btnBlue{
+        @apply border-[#3e6ae1] ease-in duration-150
+    }
+}
